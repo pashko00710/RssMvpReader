@@ -96,7 +96,7 @@
         jar="/Users/pashko00710/Downloads/RssMvpReader/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="4689bcff33fe6ed82373d6b4ffed19f896c65efd">
+        sha1="be444849e4439c5cceed49304cd608b25760a730">
         <dex dex="/Users/pashko00710/Downloads/RssMvpReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8acb7fdb21b35036bbca87c330bd78042c2d0dc1/classes.dex" />
     </item>
     <item
@@ -278,7 +278,7 @@
         jar="/Users/pashko00710/Downloads/RssMvpReader/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="4bcc38d829cfa524c8634aee8a9556da3d55aba2">
+        sha1="72b15e2a578507059108267e34c40e4ce90a55bd">
         <dex dex="/Users/pashko00710/Downloads/RssMvpReader/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_24d5c0f94bd7e2c1673d305f207dc971d5cf40c5/classes.dex" />
     </item>
     <item

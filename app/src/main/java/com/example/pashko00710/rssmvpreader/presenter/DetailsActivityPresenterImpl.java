@@ -1,1 +1,0 @@
-package com.example.pashko00710.rssmvpreader.presenter;import com.example.pashko00710.rssmvpreader.view.IDetailsActivityView;public class DetailsActivityPresenterImpl implements  IDetailsActivityPresenter {    IDetailsActivityView view;    public DetailsActivityPresenterImpl(IDetailsActivityView view) {        this.view = view;    }}

@@ -1,0 +1,1 @@
+package com.example.pashko00710.rssmvpreader.ui.presenter;public interface IDetailsActivityPresenter {    void onPreExecute();    void onPostExecute(Void result);}

@@ -1,0 +1,1 @@
+package com.example.pashko00710.rssmvpreader.ui.view;public interface IDetailsActivityView {}

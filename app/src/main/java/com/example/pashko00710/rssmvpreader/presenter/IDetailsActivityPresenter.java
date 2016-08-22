@@ -1,1 +1,0 @@
-package com.example.pashko00710.rssmvpreader.presenter;public interface IDetailsActivityPresenter {}

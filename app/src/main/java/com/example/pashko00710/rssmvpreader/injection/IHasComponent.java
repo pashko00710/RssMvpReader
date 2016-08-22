@@ -1,0 +1,1 @@
+package com.example.pashko00710.rssmvpreader.injection;public interface IHasComponent <T> {    T getComponent();}

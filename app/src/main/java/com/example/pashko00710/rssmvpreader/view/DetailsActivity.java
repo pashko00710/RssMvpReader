@@ -1,1 +1,0 @@
-package com.example.pashko00710.rssmvpreader.view;import android.support.v7.app.AppCompatActivity;public class DetailsActivity extends AppCompatActivity {}
