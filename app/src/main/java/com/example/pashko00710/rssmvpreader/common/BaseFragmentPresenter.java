@@ -1,0 +1,1 @@
+package com.example.pashko00710.rssmvpreader.common;public interface BaseFragmentPresenter<T> {    void init(T view);}

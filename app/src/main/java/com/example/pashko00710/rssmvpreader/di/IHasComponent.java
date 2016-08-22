@@ -1,0 +1,1 @@
+package com.example.pashko00710.rssmvpreader.di;public interface IHasComponent <T> {    T getComponent();}
