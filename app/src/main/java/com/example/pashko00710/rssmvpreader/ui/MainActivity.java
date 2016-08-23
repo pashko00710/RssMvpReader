@@ -1,6 +1,6 @@
 package com.example.pashko00710.rssmvpreader.ui;
 
-import android.content.Context;
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.example.pashko00710.rssmvpreader.R;
 import com.example.pashko00710.rssmvpreader.injection.IHasComponent;
@@ -33,8 +32,9 @@ public class MainActivity extends AppCompatActivity implements IMainActivityView
     @BindView(R.id.fab)
     FloatingActionButton fab;
 
-//    Dialog dialog;
+    Dialog dialog;
     ReadRss readRss;
+    Editable text;
 
     private ActivityComponent mainActivityComponent;
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements IMainActivityView
         readRss = new ReadRss(this, recyclerView);
         readRss.execute();
     }
-
+//
 //    @OnClick(R.id.fab)
 //    public void clickFab() {
 ////        presenter.infoFab(MainActivity.this);
@@ -90,16 +90,16 @@ public class MainActivity extends AppCompatActivity implements IMainActivityView
 //
 //
 //    }
-
-    private boolean errorTextInput(Context context, Editable text) {
-        if(text.length() < 2) {
-            Toast.makeText(context, R.string.min_letters, Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(context, R.string.nice, Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        return true;
-    }
+//
+//    private boolean errorTextInput(Context context, Editable text) {
+//        if(text.length() < 2) {
+//            Toast.makeText(context, R.string.min_letters, Toast.LENGTH_SHORT).show();
+//        } else {
+//            Toast.makeText(context, R.string.nice, Toast.LENGTH_SHORT).show();
+//            return false;
+//        }
+//        return true;
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
