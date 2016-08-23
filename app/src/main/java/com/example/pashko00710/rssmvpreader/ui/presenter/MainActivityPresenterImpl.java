@@ -8,14 +8,11 @@ import javax.inject.Inject;
 public class MainActivityPresenterImpl implements IMainActivityPresenter {
 
     private IMainActivityView view;
+//    String finalUrl;
+//    String resString;
 
     @Inject
     public MainActivityPresenterImpl(IMainActivityView view) {
         this.view = view;
     }
-
-//    @Override
-//    public void onBackPressed() {
-//        super.onBackPressed();
-//    }
 }
